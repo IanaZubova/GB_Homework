@@ -1,0 +1,6 @@
+new_file = open ("new_file.txt", 'a')
+new_file.write("Have a great day!\n")
+new_file.write("Long time no see\n")
+a = input("Insert phrase: ")
+new_file.write(a)
+new_file.close()
